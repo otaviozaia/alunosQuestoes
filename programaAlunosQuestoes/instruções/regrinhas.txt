@@ -1,0 +1,13 @@
+Baixe a pasta AlunosQuestoes, que contém as pastas dist, build, e os arquivos alunosQuestoes.py e alunosQuestoes.spec
+Após o download, extraia a pasta no diretório de sua preferência.
+Entre na pasta dist >> alunosQuestoes:
+-procure pelo arquivo alunosQuestoes.exe
+-clique duas vezes e execute o processo abaixo:
+
+Primeiro informar turma, sempre no modelo: ANO/LETRA DA TURMA MAÍUSCULA
+Inserir valores de 0 a 3 para as questões, caso o valor seja inválido, o campo de valor na planilha EXCEL (xls), terá a descrição "VAZIO".
+Alunos com RA de 2 dígitos, não possuíam RA na lista de presença.
+Após informar o valor para todas as questões, informe se deseja processar nova turma com S(s) ou N(n).
+Caso a opção for "N", o programa solicitará um nome para sua planilha. obs: nunca coloque o mesmo nome para duas planilhas, mesmo que diferencie letras maíusculas de minúsculas.
+Exemplo: 2d e 2D ->> o programa lerá os dois títulos como "2d" e excluirá uma das planilhas.
+Suas planilhas ficarão salvas em formato .xls na mesma pasta de alunosQuestoes.exe
